@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
-public class Runner {
+public class WaitNotifyTest {
     public static void main(String[] args) {
         Parking parking = new Parking();
         Thread trIn = new Thread(new TrafficIn(parking), "trafficIn");
